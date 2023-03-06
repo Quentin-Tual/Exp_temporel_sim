@@ -1,0 +1,37 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Wed Mar  1 14:54:46 2023
+[*]
+[dumpfile] "/home/quentint/Workspace/Exp/temporel_sim/combin/test_combin.vcd"
+[dumpfile_mtime] "Tue Feb 28 13:10:54 2023"
+[dumpfile_size] 13795328
+[savefile] "/home/quentint/Workspace/Exp/temporel_sim/combin/test_combin.gtkw"
+[timestart] 0
+[size] 1910 1005
+[pos] -1 -1
+*-28.100000 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 276
+[signals_width] 254
+[sst_expanded] 1
+[sst_vpaned_height] 299
+@22
+tb_comp_combin.tb_input_vector[3:0]
+@28
+tb_comp_combin.tb_output_vector_auth[1:0]
+@29
+tb_comp_combin.tb_output_vector_inf[1:0]
+@28
+tb_comp_combin.clk_init
+tb_comp_combin.tb_clk_init_output_auth[1:0]
+tb_comp_combin.tb_clk_init_output_inf[1:0]
+tb_comp_combin.clk_2x
+tb_comp_combin.tb_clk_2x_output_auth[1:0]
+tb_comp_combin.tb_clk_2x_output_inf[1:0]
+tb_comp_combin.clk_4x
+tb_comp_combin.tb_clk_4x_output_auth[1:0]
+tb_comp_combin.tb_clk_4x_output_inf[1:0]
+tb_comp_combin.clk_8x
+tb_comp_combin.tb_clk_8x_output_auth[1:0]
+tb_comp_combin.tb_clk_8x_output_inf[1:0]
+[pattern_trace] 1
+[pattern_trace] 0

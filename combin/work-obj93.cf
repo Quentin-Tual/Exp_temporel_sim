@@ -1,16 +1,30 @@
 v 4
-file . "tb_comp_combin.vhd" "4f731b3046108d37d9dfc9b6e692a950574c33bf" "20230228131042.956":
-  entity tb_comp_combin at 1( 0) + 0 on 189;
-  architecture rtl of tb_comp_combin at 9( 141) + 0 on 190;
-file . "tb_comp.vhd" "ad3ffc67133b16d94da3a8e060c02bf2643b9327" "20230228124718.640":
-  entity tb_comp at 1( 0) + 0 on 187;
-  architecture rtl of tb_comp at 9( 134) + 0 on 188;
-file . "mod_circ01.vhd" "df39f789a47788e5dbdf247d05f0c1fe26df1c58" "20230228094734.711":
-  entity mod_circ01 at 1( 0) + 0 on 177;
-  architecture rtl of mod_circ01 at 13( 244) + 0 on 178;
-file . "delayed_operators.vhd" "4a66d8114a57fec3d9418119693124f647c5ddbf" "20230228094723.207":
-  package delayed_operators at 1( 0) + 0 on 173 body;
-  package body delayed_operators at 49( 1126) + 0 on 174;
-file . "circ01.vhd" "c92cae92428337f83e467e20d5486872e4030d8f" "20230228094728.336":
-  entity circ01 at 1( 0) + 0 on 175;
-  architecture rtl of circ01 at 13( 240) + 0 on 176;
+file . "mod_circ01.vhd" "ab6db354a4a6e4a1389b858286beccff13de17a1" "20230306101032.118":
+  entity mod_circ01 at 1( 0) + 0 on 36;
+  architecture rtl of mod_circ01 at 13( 244) + 0 on 37;
+file . "delayed_ops/xor2_d.vhd" "e03e456a0c75a0dfa5b275f3f2023f43fde4cb30" "20230306100628.468":
+  entity xor2_d at 1( 0) + 0 on 22;
+  architecture rtl of xor2_d at 12( 170) + 0 on 23;
+file . "delayed_ops/not_d.vhd" "800f642ab155b7dc1a6edab6c21bb7e560e0aea2" "20230306100628.399":
+  entity not_d at 1( 0) + 0 on 18;
+  architecture rtl of not_d at 12( 168) + 0 on 19;
+file . "delayed_ops/nand2_d.vhd" "125bcecad12651637f08df91a4f57d4b4819c3fb" "20230306100628.329":
+  entity nand2_d at 1( 0) + 0 on 14;
+  architecture rtl of nand2_d at 12( 172) + 0 on 15;
+file . "delayed_ops/and2_d.vhd" "2f6b65585cb6064713a4dd2fcef38186b258f454" "20230306100628.259":
+  entity and2_d at 1( 0) + 0 on 11;
+  architecture rtl of and2_d at 12( 170) + 0 on 12;
+file . "delayed_ops/delayed_operators.vhd" "af8f382cb07217c28eecc24a49322fddce020f3b" "20230306100628.296":
+  package delayed_operators at 1( 0) + 0 on 13;
+file . "delayed_ops/nor2_d.vhd" "6ca5d55ae4726d32f95591e36540d8a1beacf223" "20230306100628.364":
+  entity nor2_d at 1( 0) + 0 on 16;
+  architecture rtl of nor2_d at 12( 170) + 0 on 17;
+file . "delayed_ops/or2_d.vhd" "268d45d6c1a0a2db8c379d92df3329e74a567fd8" "20230306100628.434":
+  entity or2_d at 1( 0) + 0 on 20;
+  architecture rtl of or2_d at 12( 168) + 0 on 21;
+file . "circ01.vhd" "25490ff5dd0b17e9eb85ead97f00aec35144a737" "20230306101032.068":
+  entity circ01 at 1( 0) + 0 on 34;
+  architecture rtl of circ01 at 13( 240) + 0 on 35;
+file . "tb_comp_combin.vhd" "c2d2428eb748cb49498533be47f14099b995ec76" "20230306101032.170":
+  entity tb_comp_combin at 1( 0) + 0 on 38;
+  architecture rtl of tb_comp_combin at 9( 141) + 0 on 39;

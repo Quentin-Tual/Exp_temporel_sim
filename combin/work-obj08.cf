@@ -1,4 +1,0 @@
-v 4
-file . "delayed_operators.vhd" "0cb2429b0fee66e3f5b87fb912307a9e50899183" "20230226192342.389":
-  package delayed_operators at 1( 0) + 0 on 11 body;
-  package body delayed_operators at 51( 1190) + 0 on 12;

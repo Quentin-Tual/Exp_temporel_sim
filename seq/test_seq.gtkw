@@ -1,0 +1,40 @@
+[*]
+[*] GTKWave Analyzer v3.4.0 (w)1999-2022 BSI
+[*] Mon Mar  6 09:21:06 2023
+[*]
+[dumpfile] "/home/quentint/Workspace/Exp/temporel_sim/seq/test_seq.vcd"
+[dumpfile_mtime] "Fri Mar  3 16:37:13 2023"
+[dumpfile_size] 121415
+[savefile] "/home/quentint/Workspace/Exp/temporel_sim/seq/test_seq.gtkw"
+[timestart] 0
+[size] 1920 1080
+[pos] -966 -6
+*-29.449509 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[sst_width] 276
+[signals_width] 254
+[sst_expanded] 1
+[sst_vpaned_height] 326
+@23
+tb_comp_seq.tb_input_vector[3:0]
+@28
+tb_comp_seq.clk_init
+tb_comp_seq.tb_clk_init_output_auth[1:0]
+tb_comp_seq.tb_clk_init_output_inf[1:0]
+tb_comp_seq.clk_2x
+tb_comp_seq.tb_clk_2x_output_auth[1:0]
+tb_comp_seq.tb_clk_2x_output_inf[1:0]
+tb_comp_seq.clk_4x
+tb_comp_seq.tb_clk_4x_output_auth[1:0]
+@800028
+tb_comp_seq.tb_clk_4x_output_inf[1:0]
+@28
+(0)tb_comp_seq.tb_clk_4x_output_inf[1:0]
+(1)tb_comp_seq.tb_clk_4x_output_inf[1:0]
+@1001200
+-group_end
+@28
+tb_comp_seq.clk_8x
+tb_comp_seq.tb_clk_8x_output_auth[1:0]
+tb_comp_seq.tb_clk_8x_output_inf[1:0]
+[pattern_trace] 1
+[pattern_trace] 0

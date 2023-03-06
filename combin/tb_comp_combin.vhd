@@ -8,7 +8,7 @@ end entity;
 
 architecture rtl of tb_comp_combin is
 
-    constant T : time := 100 ns;
+    constant T : time := 50 ns;
 
     procedure wait_cycles(n : natural) is
     begin

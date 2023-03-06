@@ -19,14 +19,14 @@ architecture rtl of mod_circ01 is
 
 begin
 
-    and_d(i(0), i(1), s11);
-    or_d(i(2), i(3), s12);
-    xor_d(s11, s12, s21);
+    P11 : and2_d port map (i(0), i(1), s11);
+    P12 : or2_d port map (i(2), i(3), s12);
+    P21 : xor2_d port map (s11, s12, s21);
     o(1) <= s21;
     
     -- Added/modified relations 
-    and_d(s11, s12, s23);
-    xor_d(s11, s23, s22); 
-    and_d(s22,s21, o(0));
+    P22 : and2_d port map (s11, s12, s23);
+    P23 : xor2_d port map (s11, s23, s22); 
+    P24 : and2_d port map (s22,s21, o(0));
 
 end architecture;

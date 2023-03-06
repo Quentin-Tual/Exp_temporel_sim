@@ -14,10 +14,12 @@ architecture rtl of circ01 is
     signal s11, s12, s21 : std_logic;
 begin
 
-    and_d(i(0), i(1), s11);
-    or_d(i(2), i(3), s12);
-    xor_d(s11, s12, s21);
-    and_d(s11, s21, o(0));
+    P11 : and2_d port map (i(0), i(1), s11);
+    p12 : or2_d port map (i(2), i(3), s12);
+    
+    P21 : xor2_d port map (s11, s12, s21);
+    P22 : and2_d port map (s11, s21, o(0));
+
     o(1) <= s21;
 
 end architecture;
